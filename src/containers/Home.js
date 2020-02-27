@@ -6,6 +6,7 @@ import List from "../components/List";
 import Button from "../components/Button";
 import Input from "../components/Input";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (<div>
@@ -20,8 +21,10 @@ function Home() {
       </div>
       
       <div className="button">
-      <Button title="Login"/>
-    <Button title="Sign up"/>
+        <Link to="/login">
+      <Button title="Login"/></Link>
+      <Link to="/sign">
+    <Button title="Sign up"/></Link>
       </div>
     </div>
      <Input pic={picvegan}/>

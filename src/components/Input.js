@@ -4,9 +4,9 @@ import Search from "./SearchSVG";
 function Input() {
   return (
     <div className="vegan">
-      <input className="research"></input>
-      <Search />
-    </div>
+     <div className="search-bar"> <input className="research"></input>
+      <div className="glass"><Search /></div></div>
+      </div>
   );
 }
 

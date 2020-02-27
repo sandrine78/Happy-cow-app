@@ -1,5 +1,5 @@
 import React from "react";
-const Search = ({ size = 28, color = "#000000" }) => (
+const Search = ({ size = 26, color = "white" }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
