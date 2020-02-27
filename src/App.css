@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+img {
+  object-fit: contain;
+  height: 50px;
+  width: 200px;
+  margin-left: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content:space-between;
+  padding-bottom: 20px;
+  border-bottom: solid #9069CD 5px;
+
+}
+.list-bar{
+display: flex;
+flex-direction: row;
+}
+
+.list {
+  margin-top: 20px;
+  margin-left: 30px;
+color: grey;
+font-weight: bold;
+
+}
+
+.button{
+  margin-top: 10px;
+  display: flex;
+justify-content: flex-end;
+
+}
+
+button:hover{
+  color:white;
+  background-color: #9069CD;
+
+}
+
+ .button-log{
+  margin-right: 30px;
+background-color:white;
+color: #9069CD;
+font-size: 16px;
+border-radius: 20px;
+cursor: pointer;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+outline: none
+}
+
+.vegan {
+  background-image: url("./assets/vegan.jpg");
+  height: 250px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.research {
+width: 800px;
+height: 40px;
+border-radius: 10px;
+border: none;
+outline: none;
+}
+
+footer{
+  background:#7C4FC4;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  position:absolute;
+  text-align: center;
+  bottom:0;
+  width:100%;
+  padding-top:30px;
+  height:50px;
 }
